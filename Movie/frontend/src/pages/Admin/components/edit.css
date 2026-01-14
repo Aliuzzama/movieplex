@@ -1,0 +1,71 @@
+.movie-edit-form {
+    background-color: #000; /* Black background */
+    color: #fff; /* White text */
+    padding: 20px;
+    border: 2px solid #f00; /* Red border */
+    border-radius: 10px;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  .movie-edit-section {
+    margin-bottom: 15px;
+  }
+  
+  .movie-edit-label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .movie-edit-input,
+  .movie-edit-dropdown {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    background-color: #222; /* Dark grey input background */
+    color: #fff; /* White text for readability */
+  }
+  
+  .movie-edit-dropdown:focus {
+    background-color: #000; /* Black background when dropdown is open */
+    color: #fff; /* White text for better contrast */
+    outline: none;
+  }
+  
+  .movie-edit-dropdown option {
+    background-color: #000; /* Black background for dropdown options */
+    color: #fff; /* White text for dropdown options */
+  }
+  
+  /* Optional for improved appearance on hover */
+  .movie-edit-dropdown option:hover {
+    background-color: #333; /* Darker grey for hover */
+    color: #fff;
+  }
+  .movie-edit-input:focus {
+    border: 3px solid red;
+  }
+  
+  .movie-edit-button {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #f00; /* Red background */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .movie-edit-button:hover {
+    background-color: #c00; /* Darker red on hover */
+  }
+  
+  .movie-edit-button-disabled {
+    background-color: #555; /* Grey when disabled */
+    cursor: not-allowed;
+  }
+  
